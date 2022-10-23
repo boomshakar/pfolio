@@ -365,14 +365,12 @@ h5 {
 	max-width: 432px;
 	margin-left: 6em;
 }
-.timeline-info h3 {
-	margin-right: 15px;
-}
 .timeline-info p {
 	word-break: break-word;
 }
 .timeline-info h3 span {
 	display: inline-flex;
+	margin-right: 15px;
 	flex-wrap: wrap;
 }
 .timeline-info small {
