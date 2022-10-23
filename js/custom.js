@@ -11,7 +11,7 @@ $(document).ready(function () {
 	const yrStart = 2018;
 	const currentYr = new Date().getFullYear();
 	const yearExp = currentYr - yrStart;
-	$("#yrExp").text(yearExp).replace(_, yearExp);
+	$("#yrExp").html(yearExp);
 
 	// CHange theme mode
 	$(".color-mode").click(function () {
