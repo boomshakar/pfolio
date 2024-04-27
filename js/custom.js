@@ -8,7 +8,7 @@ $(document).ready(function () {
 		navigation: true,
 		navigationPosition: "right",
 	});
-	const yrStart = 2018;
+	const yrStart = 2019;
 	const currentYr = new Date().getFullYear();
 	const yearExp = currentYr - yrStart;
 	$("#yrExp").html(yearExp);
