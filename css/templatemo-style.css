@@ -389,8 +389,10 @@ h5 {
 	margin: 0 auto;
 	text-align: center;
 }
-#about h4 {
+#about h3 {
 	padding: 15px 0;
+	font-size: 18px;
+	margin-top: 10px;
 	color: var(--bs-green);
 }
 #about .progress {
