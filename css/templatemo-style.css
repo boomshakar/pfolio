@@ -51,6 +51,7 @@ h5 {
 /* start all section */
 #work,
 #about,
+#blog,
 #portfolio,
 #contact {
 	padding-top: 100px;
@@ -381,9 +382,6 @@ h5 {
 /* end work */
 
 /* start about */
-#about {
-	background: #1a1a1a;
-}
 #about .desc {
 	max-width: 750px;
 	margin: 0 auto;
@@ -423,6 +421,16 @@ h5 {
 	float: right;
 }
 /* end about */
+
+/* start blog */
+#blog {
+	background: #1a1a1a;
+	text-align: center;
+}
+#blog h3 {
+	padding-bottom: 30px;
+}
+/* end blog */
 
 /* start portfolio */
 #portfolio {
